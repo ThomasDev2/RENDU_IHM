@@ -1,0 +1,22 @@
+[
+    {"id":1,"label":"Ironsuit mk 1","desc":"An iron Suit", "price":28525.25},
+    {"id":2,"label":"Mjolnir","desc":"Hammer of the god of thunder", "price":12455.99},
+    {"id":3,"label":"Web Launcher","desc":"A device that shoots spider web you can use to swing on", "price":699.99},
+    {"id":4,"label":"Time stone","desc":"The infinity stone that allows you to controle time", "price":42597.75},
+    {"id":5,"label":"Tactical Bow","desc":"I dont know why you would not use a gun but here you are...", "price":1299.99},
+    {"id":6,"label":"eye patch","desc":"A black leather eye patch", "price":19.99},
+    {"id":7,"label":"Hulk buster suit","desc":"An iron Suit", "price":45822.38},
+    {"id":8,"label":"vibranium arm","desc":"A very handy prosthetic", "price":1600},
+    {"id":9,"label":"Patriotic shield","desc":"A circular shield made of vibranium", "price":1258.99},
+    {"id":10,"label":"nanobots tech","desc":"Some extraordinary electronics", "price":854.99},
+    {"id":11,"label":"Falcon wings","desc":"A Steel Prosthetic that allows you to fly", "price":9857.95},
+    {"id":12,"label":"Alien steel swotd","desc":"You definitly should consider a lasergun but you do you", "price":235.75},
+    {"id":13,"label":"Jarvis Mk II","desc":"A home companion (like alexa)", "price":489.99},
+    {"id":14,"label":"A good ol 9mm","desc":"not everyone has super powers i guess", "price":2485.99},
+    {"id":15,"label":"Connected glasses","desc":"Way cooler than google glasses", "price":4569.55},
+    {"id":16,"label":"Spider Suit","desc":"A Spandex suit", "price":590.68},
+    {"id":17,"label":"Tesseract","desc":"A Very advanced power supply", "price":1238.74},
+    {"id":18,"label":"Storm Breaker","desc":"Actually less cool than Mjolnir", "price":1265.99},
+    {"id":19,"label":"Extremis Armor","desc":"My favorite IronMan suit", "price":38694.99},
+    {"id":20,"label":"Black suit and tie","desc":"Ideal if you ever get a 9 to 5 job at the sheild", "price":1388.99}
+]

@@ -1,0 +1,22 @@
+[
+    {"id":1,"fName":"Tony","lName":"Stark","job":"Engeneer/Entrepreneur"},
+    {"id":2, "fName":"Steve","lName":"Rogers","job":"Soldier"},
+    {"id":3, "fName":"Bruce","lName":"Banner","job":"Physicist"},
+    {"id":4, "fName":"Thor","lName":"Odinson","job":"God of Thunder"},
+    {"id":5, "fName":"Natasha","lName":"Romanov","job":"Special Agent"},
+    {"id":6, "fName":"Peter","lName":"Parker","job":"Highschooler"},
+    {"id":7, "fName":"Wanda","lName":"Maximov","job":"Unemployed"},
+    {"id":8, "fName":"Vision","lName":"Maximov","job":"Computer"},
+    {"id":9, "fName":"James","lName":"Barns","job":"Soldier"},
+    {"id":10, "fName":"Charles","lName":"Xavier","job":"Professor"},
+    {"id":11, "fName":"Steven","lName":"Strange","job":"Suregeon"},
+    {"id":12, "fName":"Ororo","lName":"Monroe","job":"Professor"},
+    {"id":13, "fName":"Henry","lName":"McCoy","job":"Senator"},
+    {"id":14, "fName":"Ultron","lName":"/","job":"Unemployed"},
+    {"id":15, "fName":"Thanos","lName":"/","job":"Ruler of the universe"},
+    {"id":16, "fName":"Max","lName":"Eisenhardt","job":"Political Agitator"},
+    {"id":17, "fName":"Victor","lName":"Von Doom","job":"Entrepreneur"},
+    {"id":18, "fName":"Susan","lName":"Storm","job":"Receptionnist"},
+    {"id":19, "fName":"Jhonny","lName":"Storm","job":"Entertainer"},
+    {"id":20, "fName":"Ray","lName":"Richard","job":"Phisicist"}
+]

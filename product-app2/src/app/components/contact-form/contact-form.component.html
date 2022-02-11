@@ -1,0 +1,27 @@
+<div class="container">
+    <h1>Contact us</h1>
+    <p>Leave your info below to be contacted</p>
+    <form [formGroup]="contactForm" method="post"  (ngSubmit)="onSend()">
+        <div class="form-group">
+            <label for="emailField">Email</label>
+            <input id="emailField" class="form-control" type="email" placeholder="email" formControlName="email">
+        </div>
+        <div class="form-row">
+            <div class="col">
+                <label for="fNameField">Your first name</label>
+                <input id="fNameField" class="form-control" type="text"  placeholder="first name" formControlName="fName">
+            </div>
+            <div class="col">
+                <label for="lNameField">your last name</label>
+                <input id="lNameField" class="form-control" type="text" placeholder="last name" formControlName="lName">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="jobField">Occupation</label>
+            <input id="jobField" class="form-control" type="text" placeholder="occupation" formControlName="job">
+        </div>
+        <div class="form-group">
+            <input id=sendButton class="submit" type="submit">
+        </div>
+    </form>
+</div>

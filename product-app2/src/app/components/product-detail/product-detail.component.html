@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="row">
+        <h2>Voici les detail du product {{selectedProduct.label}}</h2>
+    </div>
+    <div class="row">
+        <div class="row table-container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Label</th>
+                        <th scope="Col">Description</th>
+                        <th scope="Col">Price </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr >
+                        <td scope="row">{{selectedProduct.label}}</td>
+                        <td>{{selectedProduct.desc}}</td> 
+                        <td>{{selectedProduct.price}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

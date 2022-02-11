@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="row">
+        <h2>Voici les detail du user {{selectedUser.fName}} {{selectedUser.lName}}</h2>
+    </div>
+    <div class="row">
+        <div class="row table-container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Prénom du User</th>
+                        <th scope="Col">Nom du User</th>
+                        <th scope="Col">Job du User </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr >
+                        <td scope="row">{{selectedUser.fName}}</td>
+                        <td>{{selectedUser.lName}}</td> 
+                        <td>{{selectedUser.job}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

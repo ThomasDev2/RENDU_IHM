@@ -1,0 +1,61 @@
+<div class="container">
+    <div class="row">
+        <h2>Voici les details de l'order {{selectedOrder.id}} </h2>
+    </div>
+    <div class="row">
+        <div class="row table-container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col"> détail de l'acheteur (retrouvé par son id)</th>
+                        <th scope="Col">Panié (labels et prix retrouvés par l'id)</th>
+                        <th scope="Col">Total (calculé dans le composant) </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr >
+                        <td scope="row"><table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Prénom du User</th>
+                                    <th scope="Col">Nom du User</th>
+                                    <th scope="Col">Job du User </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr >
+                                    <td scope="row">{{selectedOrder.buyer.fName}}</td>
+                                    <td>{{selectedOrder.buyer.lName}}</td> 
+                                    <td>{{selectedOrder.buyer.job}}</td>
+                                </tr>
+                            </tbody>
+                        </table></td>
+                        <td>
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Label</th>
+                                        <th scope="Col">Description</th>
+                                        <th scope="Col">Price </th>
+                                        <th scope="Col">Quantity</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr *ngFor="let cartItem of selectedOrder.cart">
+                                        <td scope="row">{{cartItem.product.label}}</td>
+                                        <td>{{cartItem.product.desc}}</td> 
+                                        <td>{{cartItem.product.price}}</td>
+                                        <td>{{cartItem.quantity}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td> 
+                        <td>
+                            {{this.orderTotal}}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

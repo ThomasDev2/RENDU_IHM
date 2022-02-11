@@ -1,0 +1,37 @@
+
+<div class="container">
+    <div class="row">
+        <h1>Liste des Users</h1>
+    </div>
+    
+    <div class="row">
+        <div class="col-sm">
+            <div class="row">
+                <h2>Noms et prénoms</h2>
+            </div>
+            <div class="row table-container">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Nom du User</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let user of loadedUsers">
+                            <td scope="row"><a routerLink={{user.id}}>{{user.fName}} {{user.lName}}</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="row">
+                <h2>Détails</h2>
+            </div>
+            <div class="row">
+                <router-outlet></router-outlet>
+            </div>
+            
+        </div>
+    </div>
+</div>
